@@ -54,12 +54,22 @@
          padding: 0;
          }
          .right {
-         width: 100%;
+         width: 50%;
          }
          }
          @media only screen and (max-width:500px) {
          /* For mobile phones: */
          .menu, .main, .right {
+         width: 50;
+         }
+         }
+         .right1 {
+         width: 50%;
+         }
+         }
+         @media only screen and (max-width:500px) {
+         /* For mobile phones: */
+         .menu, .main, .right1 {
          width: 50;
          }
          }
@@ -84,7 +94,6 @@
 <body>
 
 <div class="container">
-  <h2>Carousel Example</h2>  
   <div id="myCarousel" class="carousel slide" data-ride="carousel">
     <!-- Indicators -->
     <ol class="carousel-indicators">
